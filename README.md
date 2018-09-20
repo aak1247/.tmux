@@ -19,10 +19,19 @@ existing `~/.tmux.conf` first)
 
 ```
 $ cd
-$ git clone https://github.com/gpakosz/.tmux.git
+$ git clone https://github.com/aak1247/.tmux.git
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
 ```
+
+or
+
+
+    # via curl
+    sh -c "$(curl -fsSL https://github.com/aak1247/.tmux/blob/master/install.sh)"
+
+    # via wget
+    sh -c "$(wget https://github.com/aak1247/.tmux/blob/master/install.sh -O -)"
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
 
