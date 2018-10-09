@@ -28,10 +28,10 @@ or
 
 
     # via curl
-    sh -c "$(curl -fsSL https://github.com/aak1247/.tmux/blob/master/install.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/aak1247/.tmux/master/install.sh)"
 
     # via wget
-    sh -c "$(wget https://github.com/aak1247/.tmux/blob/master/install.sh -O -)"
+    sh -c "$(wget https://raw.githubusercontent.com/aak1247/.tmux/master/install.sh -O -)"
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
 
